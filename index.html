@@ -12,17 +12,17 @@
   </head>
   <body class="bg-[#F5F8FF]">
     <div class="max-w-6xl m-auto">
-      <header>
+      <header class="px-10 md:px-0">
         <div class="flex justify-between items-center py-5">
           <div class="logo">
             <img src="./assets/logo.png" class="" alt="" />
           </div>
-          <div class="menu flex gap-8">
-            <nav>
+          <div class="flex gap-8">
+            <nav class="hidden md:block">
               <ul class="flex gap-8">
-                <li><a href="#" class="text-xl font-medium">Home</a></li>
-                <li><a href="#" class="text-gray-400 text-xl">Home</a></li>
-                <li><a href="#" class="text-gray-400 text-xl">Home</a></li>
+                <li><a href="#" class="text-gray-900 text-xl font-medium">Home</a></li>
+                <li><a href="#" class="text-gray-400 text-xl font-medium hover:text-gray-900">Shop</a></li>
+                <li><a href="#" class="text-gray-400 text-xl font-medium hover:text-gray-900">About Us</a></li>
               </ul>
             </nav>
             <div class="shop-bag flex items-center gap-2">
@@ -47,36 +47,36 @@
       </header>
 
       <section>
-        <div class="flex items-end gap-10 mt-34">
-          <div>
-            <h3 class="text-7xl font-bold">
+        <div class="grid grid-cols-1 md:grid-cols-2 items-end gap-10 mt-34">
+          <div class="order-2 px-10 md:px-px md:order-1">
+            <h3 class="text-4xl font-bold">
               <span>ALWAYS</span>
               <span class="text-orange-600">FRESH</span>
               <br />
               <span class="text-orange-600">FLOWERS</span>
             </h3>
-            <p class="text-gray-600 text-xl my-5">
+            <p class="text-gray-600 text-lg my-5">
               Indulge your senses with the beauty and fragrance of our fresh
               flower shop. From classic roses to exotic blooms, we offer a wide
               variety of fresh flowers that are perfect for any occasion.
             </p>
           </div>
-          <div>
+          <div class="order-1 md:order-2">
             <img src="./assets/hero-flower.png" class="w-7xl" alt="" />
           </div>
         </div>
       </section>
 
-      <section class="my-24">
-        <h3 class="text-5xl font-bold text-center">
+      <section class="my-24 px-5 md:px-0">
+        <h3 class="text-4xl md:text-5xl font-bold text-center">
           <span class="text-orange-600">Our</span> <span>Plants</span>
         </h3>
-        <p class="text-xl text-center text-gray-500 w-3xl m-auto mt-5">
+        <p class="text-xl text-center text-gray-500 md:w-3xl m-auto mt-5">
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop. From classic roses to exotic blooms, we offer a wide variety of
           fresh.
         </p>
-        <div class="grid grid-cols-4 gap-5 gap-y-7 my-10">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-5 gap-y-7 my-10">
           <div class="card">
             <img src="./assets/sample-flower-image.png" class="w-full" alt="" />
             <div class="my-5">
@@ -84,7 +84,7 @@
               <span class="block text-center font-bold text-xl">20 USD</span>
             </div>
             <button
-              class="bg-orange-600 text-white w-full uppercase py-3 cursor-pointer"
+              class="bg-orange-600 hover:bg-orange-700 text-white w-full uppercase py-3 cursor-pointer"
             >
               ADD TO CART
             </button>
@@ -96,7 +96,7 @@
               <span class="block text-center font-bold text-xl">20 USD</span>
             </div>
             <button
-              class="bg-orange-600 text-white w-full uppercase py-3 cursor-pointer"
+              class="bg-orange-600 hover:bg-orange-700 text-white w-full uppercase py-3 cursor-pointer"
             >
               ADD TO CART
             </button>
@@ -108,7 +108,7 @@
               <span class="block text-center font-bold text-xl">20 USD</span>
             </div>
             <button
-              class="bg-orange-600 text-white w-full uppercase py-3 cursor-pointer"
+              class="bg-orange-600 hover:bg-orange-700 text-white w-full uppercase py-3 cursor-pointer"
             >
               ADD TO CART
             </button>
@@ -120,7 +120,7 @@
               <span class="block text-center font-bold text-xl">20 USD</span>
             </div>
             <button
-              class="bg-orange-600 text-white w-full uppercase py-3 cursor-pointer"
+              class="bg-orange-600 hover:bg-orange-700 text-white w-full uppercase py-3 cursor-pointer"
             >
               ADD TO CART
             </button>
@@ -132,7 +132,7 @@
               <span class="block text-center font-bold text-xl">20 USD</span>
             </div>
             <button
-              class="bg-orange-600 text-white w-full uppercase py-3 cursor-pointer"
+              class="bg-orange-600 hover:bg-orange-700 text-white w-full uppercase py-3 cursor-pointer"
             >
               ADD TO CART
             </button>
@@ -144,7 +144,7 @@
               <span class="block text-center font-bold text-xl">20 USD</span>
             </div>
             <button
-              class="bg-orange-600 text-white w-full uppercase py-3 cursor-pointer"
+              class="bg-orange-600 hover:bg-orange-700 text-white w-full uppercase py-3 cursor-pointer"
             >
               ADD TO CART
             </button>
@@ -156,7 +156,7 @@
               <span class="block text-center font-bold text-xl">20 USD</span>
             </div>
             <button
-              class="bg-orange-600 text-white w-full uppercase py-3 cursor-pointer"
+              class="bg-orange-600 hover:bg-orange-700 text-white w-full uppercase py-3 cursor-pointer"
             >
               ADD TO CART
             </button>
@@ -168,26 +168,28 @@
               <span class="block text-center font-bold text-xl">20 USD</span>
             </div>
             <button
-              class="bg-orange-600 text-white w-full uppercase py-3 cursor-pointer"
+              class="bg-orange-600 hover:bg-orange-700 text-white w-full uppercase py-3 cursor-pointer"
             >
               ADD TO CART
             </button>
           </div>
         </div>
       </section>
-      <section class="mt-24 inline-block">
-        <div class="flex gap-20 items-center">
+      <section class="mt-24 px-5 md:px-0 inline-block">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 justify-center gap-20 items-center"
+        >
           <div class="relative">
             <img src="./assets/flower-store.png" class="h-full w-full" alt="" />
-            <div class="absolute top-[-110px] right-[-100px]">
+            <div class="absolute top-[-110px] right-[-100px] hidden md:block">
               <img src="./assets/trusted-badge.png" class="w-[250px]" alt="" />
             </div>
           </div>
           <div>
-            <h2 class="text-5xl font-medium mt-10">
-              Flower & Plants <br />Lover
+            <h2 class="text-4xl md:text-5xl md:w-[400px] font-medium mt-10">
+              Flower & Plants Lover
             </h2>
-            <ul class="list-disc w-[380px] ml-10 my-10">
+            <ul class="list-disc md:w-[380px] ml-10 my-5 md:my-10">
               <li class="text-gray-500 text-lg my-3">
                 Indulge your senses with the beauty and fragrance of our fresh
                 flower shop. From classic roses to exotic blooms, we offer a
@@ -207,16 +209,20 @@
           </div>
         </div>
       </section>
-      <section class="my-24">
-        <h3 class="text-5xl font-bold text-center">
+      <section class="my-24 px-5 md:px-0">
+        <h3 class="text-4xl md:text-5xl font-bold text-center">
           <span class="text-orange-600">Latest</span> <span>Deals</span>
         </h3>
-        <p class="text-xl text-center text-gray-400 w-3xl m-auto mt-5">
+        <p
+          class="text-lg md:text-xl text-center text-gray-400 md:w-3xl m-auto mt-5"
+        >
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop. From classic roses to exotic blooms, we offer a wide variety of
           fresh.
         </p>
-        <div class="grid grid-cols-3 gap-6 max-w-7xl mx-auto my-20">
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto my-20"
+        >
           <div class="grid col-span-1 gap-4">
             <div class="relative bg-no-repeat rounded-xl overflow-hidden">
               <img
@@ -250,7 +256,7 @@
             </div>
           </div>
           <div
-            class="relative bg-no-repeat rounded-xl overflow-hidden col-span-2"
+            class="relative bg-no-repeat rounded-xl overflow-hidden md:col-span-2"
           >
             <img
               src="./assets/deal-zabo.png"
@@ -260,8 +266,12 @@
             <div
               class="absolute inset-0 bg-[rgba(0,0,0,.50)] flex flex-col justify-center items-center text-white"
             >
-              <h3 class="text-4xl">25% Off | Zabo Plant</h3>
-              <a href="#" class="text-2xl my-2 border-b-1 border-white">Shop Now</a>
+              <h3 class="text-2xl md:text-4xl">25% Off | Zabo Plant</h3>
+              <a
+                href="#"
+                class="text-lg md:text-2xl my-2 border-b-1 border-white"
+                >Shop Now</a
+              >
             </div>
           </div>
         </div>
@@ -269,15 +279,17 @@
     </div>
 
     <section
-      class="bg-[url(./assets/news-letter-bg.png)] h-[533px] flex items-center justify-center bg-no-repeat bg-cover my-24"
+      class="bg-[url(./assets/news-letter-bg.png)] h-[533px] flex items-center justify-center bg-no-repeat bg-cover mt-24 mb-20"
     >
-      <div>
-        <h3 class="text-white text-5xl text-center">Join the colorful Bunch</h3>
+      <div class="w-full text-center">
+        <h3 class="text-white text-4xl md:text-5xl text-center">
+          Join the colorful Bunch
+        </h3>
         <div class="my-5">
           <input
             type="text"
             placeholder="Write email"
-            class="text-gray-900 bg-white py-3 border-none outline-none px-5 w-2xl"
+            class="text-gray-900 bg-white py-3 border-none outline-none px-5 w-1/2"
           />
           <button
             class="bg-orange-600 py-3 px-10 text-white border-none ml-[-4px] cursor-pointer"
@@ -287,11 +299,11 @@
         </div>
       </div>
     </section>
-    <footer class="max-w-7xl m-auto pb-12">
-      <div class="grid grid-cols-[2fr_1fr_1fr_2fr] gap-10">
+    <footer class="max-w-7xl m-auto pb-12 px-5 md:px-0">
+      <div class="grid md:grid-cols-[2fr_1fr_1fr_2fr] gap-10">
         <div>
           <img src="./assets/logo.png" alt="" />
-          <p class="text-gray-400 text-xl w-[300px] my-3">
+          <p class="text-gray-400 text-xl md:w-[300px] my-3">
             Indulge your senses with the beauty and fragrance of our fresh
             flower shop.
           </p>
